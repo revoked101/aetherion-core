@@ -1,0 +1,22 @@
+{
+  "container": "beam_x_supersonic_core",
+  "orchestration": {
+    "engine": "kubernetes",
+    "minikube_profile": "aetherion-fast-spinup",
+    "vault_sidecar": {
+      "injection": "enabled",
+      "mount_path": "/vault/secrets/lattice",
+      "secret_engine": "kv-v2"
+    }
+  },
+  "power_coupling": {
+    "source": "diamond_isotope_battery",
+    "peak_efficiency_percentage": 98.4,
+    "thermal_dissipation_wattage": 0.005,
+    "dynamic_allocation": "enabled"
+  },
+  "runtime_policies": {
+    "ssl_enforcement": "lattice-aware-strict",
+    "self_healing_delay_ms": 10
+  }
+}

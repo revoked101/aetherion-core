@@ -1,0 +1,13 @@
+{
+  "name": "aetherion-telemetry-ui",
+  "version": "1.0.0",
+  "description": "Hybrid Supersonic UI - Angular Architecture with Svelte/Solid Signals",
+  "scripts": {
+    "build": "echo 'Compiling fine-grained reactive bundles...'"
+  },
+  "dependencies": {
+    "@angular/core": "^18.0.0",
+    "svelte": "^5.0.0",
+    "solid-js": "^1.8.0"
+  }
+}

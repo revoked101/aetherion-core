@@ -1,0 +1,6 @@
+.aetherion-dashboard-frame { background: #0a0a0c; color: #00ffcc; font-family: monospace; padding: 20px; }
+.matrix-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
+.card { border: 1px solid #00ffcc; background: #111116; padding: 12px; }
+.metric-line { margin: 6px 0; font-size: 13px; }
+.latency-overlay { color: #ff0055; font-weight: bold; }
+.webgl-canvas-stub { width: 100%; height: 80px; border: 1px dashed #00ffcc; background: #000; }
